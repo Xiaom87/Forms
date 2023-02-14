@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+</head>
+<body>
+   <header class="header">
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+           <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active" style="color: #FF0000;" href="./index.html">Главная</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link links" href="./favorites.html">Избранное</a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link links" href="./project.html ">О проекте</a>
+                </li>
+             </ul>
+             
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
+
+               <li class="nav-links mt-3 d-none d-lg-block">
+                  <a href="#" class="" style="color: #000;">Тепляков Д.</a>
+               </li>
+               <li class="nav-links d-none d-lg-block">
+                  <a href="./index.html" class="btn-exit ms-3" type="button">Выйти</a>
+               </li>
+               </ul>
+           </div>
+         </div>
+       </nav>
+    </header>
+    <section class="navigation">
+      <div class="container">
+         <div class="row justify-content-md-center">
+           <div class="col-sm-6 col-md-6 col-lg-1">
+           <div class="icon-left">
+            <a href="./index.html" class="fa-solid fa-angle-left border-0 " style="background-color: #fff;" type="button"><span class="ms-3">Назад</span></a>
+           </div>
+           </div>
+           <div class="col-sm-6 col-md-6 col-lg-11">
+            <div class="navigation-heading">
+               <h1 class="nav-personajy">Персонажи</h1>
+            </div>
+           </div>
+           <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="search-name">
+               <p class="search-user">Поиск по имени</p>
+               <input type="text" class="form-control" placeholder="Введите имя персонажа"  aria-describedby="basic-addon1">
+            </div>
+           </div>
+           <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="search-race">
+               <p class="search-user">Поиск по рассе</p>
+               <input type="text" class="form-control" placeholder="Введите рассу персонажа"  aria-describedby="basic-addon1">
+            </div>
+           </div>
+           <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="search-status">
+               <p class="search-user">Поиск по статусу</p>
+               <div class="input-group mb-3">
+                  <select class="form-select" id="inputGroupSelect01" placeholder="Username">
+                    <option selected>Выберите статус персонажа</option>
+                    <option value="1">Onlline</option>
+                    <option value="2">Offline</option>
+                  </select>
+                </div>
+            </div>
+           </div>
+           <div class="col-sm-6 col-md-6 col-lg-2">
+            <div class="search-icons">
+               <div class="icons-img mt-5 d-none d-lg-block">
+                  <img src="img/Vector.png" alt="" class="me-3">
+                  <img src="img/main/Vector.png" alt="">
+               </div>
+            </div>
+           </div>
+         </div>
+    </section>
+    <section class="characters">
+      <div class="container">
+         <div class="row justify-content-start">
+            <div class="card mb-3" style="width: 1170px;">
+               <div class="row g-0">
+                  
+                 <div class="col-md-4">
+                   <img src="img/1 419458211.png" class="rounded float-start mt-2" alt="...">
+                   <div class="life">
+                     <p>Живой</p>
+                   </div>
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body-data">
+                     <h5 class="text-start">Morty Smith</h5>
+                     
+                     <div class="row justify-content-between text-start">
+                        <div class="col col-lg-4">
+                          <ul>
+                           <li>Расса:</li>
+                           <li>Место происхождения:</li>
+                           <li>Последняя локация:</li>
+                          </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul>
+                              <li>Human</li>
+                              <li>Earth (C-137)</li>
+                              <li>Earth (Replacement<br> Dimension)</li>
+                             </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul class="card-pol">
+                              <li >Пол: <span class="ms-5">Male</span> </li>
+                              <li>Эпизоды: <span class="ms-3">1-41</span> </li>
+                             </ul>
+                        </div>
+                        
+                   </div>
+                    <div class="card-button ">
+                  <button type="button" class="btn d-flex float-end mb-2"><div><img src="img/Vector-1.png" class="me-3" alt=""></div><span class="button-text">В избранном</span></button>
+                </div>
+                 </div>
+                
+               </div>
+               
+             </div>
+            
+            </div>
+            <div class="card mb-3" style="width: 1170px;">
+               <div class="row g-0">
+                  
+                 <div class="col-md-3">
+                   <img src="img/image 1.png" class="rounded float-start mt-2" alt="...">
+                   <div class="life">
+                     <p>Живой</p>
+                   </div>
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body-data">
+                     <h5 class="text-start">Rick Sanchez</h5>
+                     
+                     <div class="row justify-content-between text-start">
+                        <div class="col col-lg-4">
+                          <ul>
+                           <li>Расса:</li>
+                           <li>Место происхождения:</li>
+                           <li>Последняя локация:</li>
+                          </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul>
+                              <li>Human</li>
+                              <li>Earth (C-137)</li>
+                              <li>Earth (Replacement<br> Dimension)</li>
+                             </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul class="card-pol">
+                              <li >Пол: <span class="ms-5">Male</span> </li>
+                              <li>Эпизоды: <span class="ms-3">1-41</span> </li>
+                             </ul>
+                        </div>
+                        
+                   </div>
+                    <div class="card-button-morty ms-5">
+                     <button type="button" class="btn button-morty float-end mb-2"><div class="fa-sharp fa-solid fa-plus" style="color: #fff;"><span class="ms-3">Добавить в избранное</span></div></button>
+                </div>
+                 </div>
+                 
+               </div>
+               
+             </div>
+            
+            </div>
+            <div class="card mb-3" style="width: 1170px;">
+               <div class="row g-0">
+                  
+                 <div class="col-md-3">
+                   <img src="img/image 2.png" class="rounded float-start mt-2" alt="...">
+                   <div class="life">
+                     <p>Живой</p>
+                   </div>
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body-data">
+                     <h5 class="text-start">Summer Smith</h5>
+                     
+                     <div class="row justify-content-between text-start">
+                        <div class="col col-lg-4">
+                          <ul>
+                           <li>Расса:</li>
+                           <li>Место происхождения:</li>
+                           <li>Последняя локация:</li>
+                          </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul>
+                              <li>Human</li>
+                              <li>Earth (C-137)</li>
+                              <li>Earth (Replacement<br> Dimension)</li>
+                             </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul class="card-pol">
+                              <li >Пол: <span class="ms-5">Female</span> </li>
+                              <li>Эпизоды: <span class="ms-3">6-27, 29-36, 38-41</span> </li>
+                             </ul>
+                        </div>
+                        
+                   </div>
+                    <div class="card-button-morty ms-5">
+                     <button type="button" class="btn button-morty float-end mb-2"><div class="fa-sharp fa-solid fa-plus" style="color: #fff;"><span class="ms-3">Добавить в избранное</span></div></button>
+                </div>
+                 </div>
+                 
+               </div>
+               
+             </div>
+            
+            </div>
+            <div class="card mb-3" style="width: 1170px;">
+               <div class="row g-0">
+                  
+                 <div class="col-md-3">
+                   <img src="img/image 14.png" class="rounded float-start mt-2" alt="...">
+                   <div class="life">
+                     <p>Живой</p>
+                   </div>
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body-data">
+                     <h5 class="text-start">Annie</h5>
+                     
+                     <div class="row justify-content-between text-start">
+                        <div class="col col-lg-4">
+                          <ul>
+                           <li>Расса:</li>
+                           <li>Место происхождения:</li>
+                           <li>Последняя локация:</li>
+                          </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul>
+                              <li>Human</li>
+                              <li>Earth (C-137)</li>
+                              <li>Anatomy Park</li>
+                             </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul class="card-pol">
+                              <li >Пол: <span class="ms-5">Female</span> </li>
+                              <li>Эпизоды: <span class="ms-3">3</span> </li>
+                             </ul>
+                        </div>
+                        
+                   </div>
+                    <div class="card-button-morty ms-5">
+                     <button type="button" class="btn button-morty float-end mb-2"><div class="fa-sharp fa-solid fa-plus" style="color: #fff;"><span class="ms-3">Добавить в избранное</span></div></button>
+                </div>
+                 </div>
+                 
+               </div>
+               
+             </div>
+            
+            </div>
+            <div class="card mb-3" style="width: 1170px;">
+               <div class="row g-0">
+                  
+                 <div class="col-md-3">
+                   <img src="img/image 13.png" class="rounded float-start mt-2" alt="...">
+                   <div class="life">
+                     <p>Живой</p>
+                   </div>
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body-data">
+                     <h5 class="text-start">Antenna Morty</h5>
+                     
+                     <div class="row justify-content-between text-start">
+                        <div class="col col-lg-4">
+                          <ul>
+                           <li>Расса:</li>
+                           <li>Место происхождения:</li>
+                           <li>Последняя локация:</li>
+                          </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul>
+                              <li>Human</li>
+                              <li>Unknown</li>
+                              <li>Citadel of Ricks</li>
+                             </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul class="card-pol">
+                              <li >Пол: <span class="ms-5">Male</span> </li>
+                              <li>Эпизоды: <span class="ms-3">10, 28</span> </li>
+                             </ul>
+                        </div>
+                        
+                   </div>
+                    <div class="card-button-morty ms-5">
+                     <button type="button" class="btn button-morty float-end mb-2"><div class="fa-sharp fa-solid fa-plus" style="color: #fff;"><span class="ms-3">Добавить в избранное</span></div></button>
+                </div>
+                 </div>
+                 
+               </div>
+               
+             </div>
+            
+            </div>
+            <div class="card mb-3" style="width: 1170px;">
+               <div class="row g-0">
+                  
+                 <div class="col-md-3">
+                   <img src="img/image 12.png" class="rounded float-start mt-2" alt="...">
+                   <div class="life">
+                     <p>Неизвестно</p>
+                   </div>
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body-data">
+                     <h5 class="text-start">Antenna Rick</h5>
+                     
+                     <div class="row justify-content-between text-start">
+                        <div class="col col-lg-4">
+                          <ul>
+                           <li>Расса:</li>
+                           <li>Место происхождения:</li>
+                           <li>Последняя локация:</li>
+                          </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul>
+                              <li>Human</li>
+                              <li>Unknown</li>
+                              <li>Unknown</li>
+                             </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul class="card-pol">
+                              <li >Пол: <span class="ms-5">Male</span> </li>
+                              <li>Эпизоды: <span class="ms-3">10</span> </li>
+                             </ul>
+                        </div>
+                        
+                   </div>
+                    <div class="card-button-morty ms-5">
+                     <button type="button" class="btn button-morty float-end mb-2"><div class="fa-sharp fa-solid fa-plus" style="color: #fff;"><span class="ms-3">Добавить в избранное</span></div></button>
+                </div>
+                 </div>
+                 
+               </div>
+               
+             </div>
+            
+            </div>
+            <div class="card mb-3" style="width: 1170px;">
+               <div class="row g-0">
+                  
+                 <div class="col-md-3">
+                   <img src="img/image 11.png" class="rounded float-start mt-2" alt="...">
+                   <div class="life">
+                     <p>Неизвестно</p>
+                   </div>
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body-data">
+                     <h5 class="text-start">Ants in my Eyes Johnson</h5>
+                     
+                     <div class="row justify-content-between text-start">
+                        <div class="col col-lg-4">
+                          <ul>
+                           <li>Расса:</li>
+                           <li>Место происхождения:</li>
+                           <li>Последняя локация:</li>
+                          </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul>
+                              <li>Human</li>
+                              <li>Unknown</li>
+                              <li>Interdimensional Cable</li>
+                             </ul>
+                        </div>
+                        <div class="col col-lg-4">
+                           <ul class="card-pol">
+                              <li >Пол: <span class="ms-5">Male</span> </li>
+                              <li>Эпизоды: <span class="ms-3">8</span> </li>
+                             </ul>
+                        </div>
+                        
+                   </div>
+                    <div class="card-button-morty ms-5">
+                     <button type="button" class="btn button-morty float-end mb-2"><div class="fa-sharp fa-solid fa-plus" style="color: #fff;"><span class="ms-3">Добавить в избранное</span></div></button>
+                </div>
+                 </div>
+                 
+               </div>
+               
+             </div>
+            
+            </div>
+         </div>
+         <div class="row justify-content-md-center">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+               <nav aria-label="Page navigation example ">
+                  <ul class="pagination justify-content-md-center">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo; Предыдущая</span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo; следующая</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+         </div>
+       </div>
+    </section>
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

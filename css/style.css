@@ -1,0 +1,276 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.navbar-brand img {
+   height: 3rem;
+}
+.nav-link:hover {
+   border-bottom: 1px solid #FF0000;
+}
+.nav-item .links:hover {
+   border-bottom: 1px solid #000;
+}
+.btn-registration {
+   text-decoration: none;
+   color: #000;
+   border: 1px solid #000;
+   font-size: 14px;
+   border-radius: 5px;
+   width: 188px;
+   height: 49px;
+   font-size: 18px;
+   text-align: center;
+   padding: 9px;
+}
+.btn-come-in {
+   text-decoration: none;
+   color: #000;
+   border: 1px solid #000;
+   background-color: #000;
+   color: #ffffff;
+   border-radius: 5px;
+   width: 123.57px;
+   height: 49.27px;
+   font-size: 18px;
+   text-align: center;
+   padding: 9px;
+}  
+.btn-exit{
+   text-decoration: none;
+   color: #000;
+   border: 1px solid #000;
+   background-color: #fff;
+   color: #000;
+   border-radius: 5px;
+   width: 123.57px;
+   height: 49.27px;
+   font-size: 18px;
+   text-align: center;
+   padding: 9px;
+}       
+.card-links-text {
+   font-size: 16px;
+}
+a {
+   text-decoration: none;
+}
+.card {
+   margin: auto;
+}
+.card {
+   
+   border-radius: 19px;
+}
+.card{
+   text-decoration: none;
+   color: #000;
+   transition: .5s ease;
+   box-shadow: 5px 5px 10px 20px rgba(0, 0, 0, .04);
+}
+.card:hover {
+   transform: scale(1.05);
+}
+/* index personajy*/
+.fa-solid {
+   color: #000;
+}
+.nav-personajy {
+   font-size: 28px;
+}
+.search-user {
+   text-align: left;
+}
+.card ul {
+   list-style-type: none;
+}
+.card-pol {
+   word-spacing: inherit;
+}
+.life {
+   position: absolute;
+   top: 0;
+   left: 80%;
+   right: 0%;
+}
+.button-text {
+   color: #00CA51;
+   font-weight: 700;
+}
+.button-morty {
+   border: 1px solid #00A3FF;
+   border-radius: 5px;
+   background-color: #00A3FF;
+   color: #fff;
+}
+.button-morty {
+   font-style: 'Montserrat';
+}
+.favorites-name  {
+   color: #FF0000;
+}
+.favorites-name:hover  {
+   border-bottom: 1px solid #FF0000;
+}
+.favorites-location {
+   color: #000;
+}
+.favorites-location:hover {
+   border-bottom: 1px solid #000;
+}
+.left-card-text {
+   font-size: 12px;
+}
+.right-card-text {
+   font-size: 14px;
+}
+/* index personajy end */
+
+
+
+.hidden {
+   display: none;
+}
+.fade-block {
+   position: absolute;
+   top: 0;
+   left: 28%;
+   right: 50%;
+   bottom: 0;
+   z-index: 1000;
+}
+.modals-windows {
+   position: absolute;
+   background-color: #eee;
+   width: 370px;
+   height: 637px;
+   top: 120px;
+   left: 150px;
+   border-radius: 5px;
+}
+.box-email {
+   position: absolute;
+   top: 114px;
+   height: 36px;
+   left: 20px;
+   right: 19px;
+   bottom: 680px;
+}
+.box-login {
+   position: absolute;
+   top: 185px;
+   left: 20px;
+   right: 19px;
+   bottom: 416px;
+   height: 36px;
+}
+.box-name {
+   position: absolute;
+   top: 256px;
+   left: 20px;
+   right: 19px;
+   bottom: 345px;
+   height: 36px;
+}
+.box-surname {
+   position: absolute;
+   top: 327px;
+   left: 20px;
+   right: 19px;
+   bottom: 274px;
+   height: 36px;
+}
+.box-password {
+   position: absolute;
+   top: 398px;
+   left: 20px;
+   height: 36px;
+   bottom: 203px;
+   width: 331px;
+}
+.box-passwords {
+   position: absolute;
+   top: 469px;
+   left: 20px;
+   height: 36px;
+   bottom: 132px;
+   width: 331px;
+}
+.modal-icon {
+   position: absolute;
+   top: 406px;
+   left: 310px;
+}
+.modal-icons {
+   position: absolute;
+   top: 477px;
+   left: 310px;
+}
+.form-button {
+   position: absolute;
+   top: 572px;
+   left: 60px;
+   right: 66px;
+   bottom: 30px; 
+   width: 236px;
+   height: 49px;
+   border: 1px solid #000;
+   border-radius: 5px;
+   background-color: #000;
+   color: #fff;
+}
+.btn-closes {
+   position: absolute;
+   left: 350px;
+   top: 10px;
+   right: 10px;
+}
+.modal-images-top img{
+   position: absolute;
+   height: 10rem;
+   top: -120px;
+   left: 90px;
+   bottom: 0px;
+   z-index: -1;
+   
+}
+.modal-images-left {
+   position: relative;
+   top: -80px;
+   left: 260px;
+   width: 92.79px;
+   height: 286.21px;
+   z-index: -1;
+}
+.images-right {
+   position: relative;
+   width: 246px;
+   height: 352px;
+   top: -255px;
+   left: -150px;
+   z-index: -1;
+}
+.card-close {
+   position: absolute;
+   left: 94%;
+   top: 3%;
+   cursor: pointer;
+   border: none;
+   background-color: red;
+   color: #fff;
+   border: 1px solid;
+   border-radius: 50%;
+   width: 20px;
+   padding: 1px;
+   margin: 3px;
+}
+.card-close:hover {
+   transform: scale(2.05);
+}
+
+.myblocks {
+   display: inline-block;
+   text-align: center;
+}
+
