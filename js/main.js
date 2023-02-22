@@ -7,4 +7,4 @@ const buttonClose = document.querySelector('[data-modal-close]');
 
 });
    
-   
+ 
